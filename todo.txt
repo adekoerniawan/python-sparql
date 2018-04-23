@@ -1,11 +1,9 @@
-child classes of keyword - one deep
-STRATEGY
-  search for all pages that list keyword as a type
+LOOKUP - SKOS db http://www.w3.org/2004/02/skos/core#
+  may be useful...
 
+------ace-query.py------
+update code to return similarities between keywords
 
-find out exact meaning of 'type' and 'subject'
-type:
-  Statements in which the resource exists as a subject.
-
-Subject:
-  The topic of the resource
+------ace-children.py------
+update code to poll more resources.
+  Add in more UNION statements to get more results.
